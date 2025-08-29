@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+.venv
+.idea/
+.vscode/
+*.sqlite3
+
+# Model artifacts / data (do NOT commit big files)
+models/
+data/
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
